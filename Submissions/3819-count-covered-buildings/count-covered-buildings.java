@@ -2,10 +2,10 @@ class Solution {
     public int countCoveredBuildings(int n, int[][] buildings) {
 
         int L = buildings.length;
-        int mincols[] = new int [n+1];
-        int maxcols[] = new int [n+1];
-        int minrows[] = new int [n+1];
-        int maxrows[] = new int [n+1];
+        int mincols[] = new int [n+1]; // min col for each row
+        int maxcols[] = new int [n+1]; // max col for each row
+        int minrows[] = new int [n+1]; //min row for each col
+        int maxrows[] = new int [n+1]; //max row for each col
 
 
         for(int i=0; i < L; i++)
